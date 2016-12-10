@@ -1,0 +1,10 @@
+var numbers = [];
+for (var i = 1; i < 11; i++) {
+  numbers.push(i);
+}
+
+filtered = numbers.filter(function (number) {
+  return number % 2 === 0;
+});
+
+console.log(filtered);
